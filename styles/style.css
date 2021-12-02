@@ -11,7 +11,6 @@ a {
  div {
     border: 1px solid lime;
 }
-
 a {
   color: yellow;
   text-decoration: none;
@@ -24,7 +23,6 @@ a {
   font-style: normal;
   font-weight: 200;
   margin: 0 auto;
-
 }
 .logo {
   display: block;
@@ -234,10 +232,4 @@ a {
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-}
-
-@media screen and (max-width: 768px){
-    .page{
-    background-color: green;
-}
 }
