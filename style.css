@@ -8,8 +8,8 @@ img,
 a {
   border: 1px solid red;
 }
- div {
-    border: 1px solid lime;
+div {
+  border: 1px solid lime;
 }
 
 a {
@@ -24,7 +24,6 @@ a {
   font-style: normal;
   font-weight: 200;
   margin: 0 auto;
-
 }
 .logo {
   display: block;
@@ -147,8 +146,8 @@ a {
 .grid__item {
   position: relative;
 }
-.grid__item_row_shrink{
-    grid-template-rows: 76px auto;
+.grid__item_row_shrink {
+  grid-template-rows: 76px auto;
 }
 
 .grid__item:nth-of-type(2) {
@@ -170,7 +169,7 @@ a {
   bottom: 0;
 }
 .section__image {
-  margin-bottom: 48px;''
+  margin-bottom: 48px;
 }
 
 .section__artist {
@@ -185,7 +184,7 @@ a {
 
 .section__author {
   margin: 0;
-  paddding: 0;
+  padding: 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -201,7 +200,7 @@ a {
   font-size: 18px;
   line-height: 1.2;
   padding: 13px 20px;
-  background-color: #0278FE;
+  background-color: #0278fe;
   border-radius: 4px;
 }
 .section__paragraph {
@@ -236,8 +235,8 @@ a {
   line-height: 76px;
 }
 
-@media screen and (max-width: 768px){
-    .page{
+@media screen and (max-width: 768px) {
+  .page {
     background-color: green;
-}
+  }
 }
