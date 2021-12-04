@@ -1,4 +1,4 @@
-p,
+/* p,
 h1,
 h2,
 h3,
@@ -233,10 +233,4 @@ a {
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-}
-
-@media screen and (max-width: 768px) {
-  .page {
-    background-color: green;
-  }
-}
+} */
