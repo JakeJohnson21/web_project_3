@@ -1,4 +1,4 @@
-p,
+/* p,
 h1,
 h2,
 a {
@@ -6,7 +6,7 @@ a {
 }
 div {
   border: 1px solid lime;
-}
+} */
 
 .page {
   max-width: 1280px;
@@ -337,6 +337,9 @@ div {
     grid-template-rows: auto 355px auto;
     margin-bottom: 72px;
   }
+  .grid:first-child {
+    margin-top: 88px;
+  }
   .grid__item:nth-child(5) {
     grid-row: 3/4;
     grid-column: 1/2;
@@ -427,9 +430,20 @@ div {
   .section__title {
     font-size: 32px;
     line-height: 35px;
+    margin: 0 16px;
   }
   .section__link {
     padding: 13px 40px;
+    margin: 0 16px;
+  }
+  .section__author {
+    margin: 0 16px;
+  }
+  .section__artist {
+    margin: 0 16px;
+  }
+  .section__paragraph {
+    margin: 0 16px;
   }
 
   .grid__item:last-child {
@@ -437,18 +451,18 @@ div {
     grid-column: 1/2;
   }
   .kyiv {
-    margin: 0 16px;
+    margin: 0;
   }
   .cricieth {
-    margin: 0 16px;
+    margin: 0;
   }
   .berea {
-    margin: 0 16px;
+    margin: 0;
   }
   .muramvya {
-    margin: 0 16px;
+    margin: 0;
   }
   .waukesha {
-    margin: 0 16px;
+    margin: 0;
   }
 }
