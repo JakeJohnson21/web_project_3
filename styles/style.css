@@ -1,20 +1,20 @@
-p,
+/* p,
 h1,
 h2,
 a {
   border: 1px solid red;
 }
-div {
+ div {
   border: 1px solid lime;
 }
+section {
+  border: 1px solid purple;
+} */
 
 .page {
   max-width: 1280px;
   background-color: #2a2c2f;
   color: white;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 200;
   margin: 0 auto;
 }
 .__logo {
@@ -29,7 +29,7 @@ div {
   line-height: 100px;
   text-align: center;
   max-width: 793px;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 32px auto;
 }
 
 .lead__subtitle {
@@ -59,6 +59,7 @@ div {
   line-height: 58px;
   margin-top: 92px;
   max-width: 785px;
+  margin-bottom: 40px;
 }
 
 .origin__quote {
@@ -68,6 +69,8 @@ div {
   font-size: 24px;
   line-height: 34px;
   max-width: 720px;
+  margin-bottom: 10px;
+  padding: 0;
 }
 
 .origin__author {
@@ -78,6 +81,8 @@ div {
   line-height: 34px;
   max-width: 720px;
   text-align: right;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .origin__text {
@@ -85,18 +90,21 @@ div {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 26.08px;
   max-width: 720px;
-  margin-bottom: 68px;
+  margin-bottom: 118px;
+  margin-top: 32px;
 }
 .gallery {
-  margin: 118px auto 92px auto;
+  margin: 0 auto 92px auto;
+  padding: 0;
 }
 .gallery__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-top: 0;
 }
 .gallery__image {
   max-width: 284px;
@@ -137,12 +145,12 @@ div {
 .grid {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 460px 1fr;
   grid-template-rows: auto 460px auto;
-  margin-bottom: 93px;
+  margin-bottom: 80px;
   grid-row-gap: 48px;
   grid-column-gap: 40px;
-  max-width: 894px;
+  max-width: 987px;
 }
 .grid__item:nth-child(4) {
   grid-row: 2/4;
@@ -172,6 +180,7 @@ div {
   line-height: 76px;
   margin: 0;
   padding: 0;
+  max-width: 460px;
 }
 .section__image {
   margin-bottom: 48px;
@@ -179,13 +188,12 @@ div {
 }
 
 .section__artist {
-  display: flex;
-  align-items: flex-end;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.2;
+  line-height: 14.52px;
+  letter-spacing: 1.6px;
   margin-bottom: 8px;
 }
 
@@ -196,14 +204,14 @@ div {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 22px;
 }
 
 .section__link {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  margin: 0;
+  position: absolute;
   font-size: 18px;
   line-height: 1.2;
   padding: 13px 20px;
@@ -217,9 +225,10 @@ div {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 29.34px;
+  margin: 0 0 21px 0;
   max-width: 484px;
-  margin: 0 0 25px 0;
+
   padding: 0;
 }
 .section__paragraph:last-of-type {
@@ -238,7 +247,7 @@ div {
   flex-direction: column;
   z-index: 1;
 }
-.cover:hover {
+/* .cover:hover {
   position: absolute;
   top: 0;
   left: 0;
@@ -246,7 +255,7 @@ div {
   height: 100%;
   background-color: black;
   opacity: 0.7;
-}
+} */
 .cover__content {
   margin: auto;
   position: relative;
@@ -261,6 +270,7 @@ div {
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
+  z-index: 2;
 }
 .cover__text {
   text-align: center;
@@ -269,6 +279,7 @@ div {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  z-index: 2;
 }
 .cover__link {
   font-family: "Inter";
@@ -280,6 +291,29 @@ div {
   color: white;
   text-decoration: none;
   margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.cover__overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(42, 42, 42);
+  opacity: 0.4;
+}
+.cover__overlay:hover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.8;
+}
+.cover__link:hover > .cover__overlay:hover {
 }
 .footer {
   margin: 0;
@@ -288,45 +322,13 @@ div {
 .footer__copyright {
   text-align: center;
 }
-@media screen and (max-width: 1280px) {
-  .gallery {
-    margin: 0 24px;
-  }
-  .gallery .gallery__image {
-    margin: 8px;
-    max-width: 352px;
-  }
-  .kyiv {
-    margin: 0 24px;
-    padding: 0;
-  }
-  .cricieth {
-    margin: 0 24px;
-    padding: 0;
-  }
-  .berea {
-    margin: 0 24px;
-    padding: 0;
-  }
-  .muramvya {
-    margin: 0 24px;
-    padding: 0;
-  }
-  .waukesha {
-    margin: 0 24px;
-    padding: 0;
-  }
-  .grid:first-child {
-    margin-top: 88px;
-  }
-}
+
 @media screen and (max-width: 900px) {
   .cover {
     height: 600px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
-  margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
   .origin {
@@ -572,5 +574,12 @@ div {
   }
   .cover__link {
     margin-bottom: 45px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .page {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
   }
 }
