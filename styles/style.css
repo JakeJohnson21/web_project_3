@@ -299,6 +299,7 @@ section {
 .cover__link:hover {
   background-color: #0063d2;
   transition: ease-in 0.25s;
+  cursor: pointer;
 }
 .cover__link:hover .cover__overlay:hover {
   background-color: #2a2c2f;
