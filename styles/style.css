@@ -213,7 +213,7 @@ section {
   font-weight: 600;
   position: absolute;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 21.78px;
   padding: 13px 20px;
   background-color: #0278fe;
   border-radius: 4px;
@@ -246,6 +246,7 @@ section {
   display: flex;
   flex-direction: column;
   z-index: 1;
+  margin-top: 92px;
 }
 /* .cover:hover {
   position: absolute;
@@ -279,6 +280,7 @@ section {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  max-width: 280px;
   z-index: 2;
 }
 .cover__link {
@@ -327,8 +329,6 @@ section {
   .cover {
     height: 600px;
   }
-}
-@media screen and (min-width: 768px) and (max-width: 1280px) {
 }
 @media screen and (max-width: 768px) {
   .origin {
