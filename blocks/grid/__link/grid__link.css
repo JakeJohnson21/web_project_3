@@ -1,4 +1,4 @@
-.section__link {
+.grid__link {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -11,12 +11,12 @@
   color: white;
   text-decoration: none;
 }
-.section__link:hover {
+.grid__link:hover {
   background: #0063d2;
   transition: ease-in 0.25s;
 }
 @media screen and (max-width: 700px) {
-  .section__link {
+  .grid__link {
     position: relative;
     padding: 13px 40px;
     margin: 0 16px;
@@ -25,7 +25,7 @@
 }
 
 @media screen and (max-width: 580px) {
-  .section__link {
+  .grid__link {
     white-space: nowrap;
   }
 }

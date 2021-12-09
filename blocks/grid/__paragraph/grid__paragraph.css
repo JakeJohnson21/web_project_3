@@ -1,4 +1,4 @@
-.section__paragraph {
+.grid__paragraph {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -9,19 +9,19 @@
 
   padding: 0;
 }
-.section__paragraph:last-of-type {
+.grid__paragraph:last-of-type {
   margin-bottom: 0;
 }
 
 @media screen and (max-width: 999px) {
-  .section__paragraph {
+  .grid__paragraph {
     font-size: 16px;
     line-height: 26.08px;
   }
 }
 
 @media screen and (max-width: 700px) {
-  .section__paragraph {
+  .grid__paragraph {
     margin: 0 16px 25px;
   }
 }
