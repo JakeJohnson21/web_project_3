@@ -1,6 +1,6 @@
 .cover__text {
   text-align: center;
-  margin: 32px auto;
+  margin: auto;
   font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
@@ -12,6 +12,6 @@
   .cover__text {
     font-size: 14px;
     line-height: 16px;
-    margin: 16px auto;
+    margin: auto;
   }
 }
