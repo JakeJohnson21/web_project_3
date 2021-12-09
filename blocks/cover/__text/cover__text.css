@@ -1,0 +1,17 @@
+.cover__text {
+  text-align: center;
+  margin: 32px auto;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 280px;
+  z-index: 2;
+}
+@media screen and (max-width: 700px) {
+  .cover__text {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 16px auto;
+  }
+}

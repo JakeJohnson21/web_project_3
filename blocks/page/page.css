@@ -1,0 +1,23 @@
+.page {
+  max-width: 1280px;
+  background-color: #2a2c2f;
+  color: white;
+  margin: 0 auto;
+}
+@media screen and (max-width: 700px) {
+  .page {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+/* p,
+h1,
+h2,
+div,
+img,
+svg,
+header,
+section,
+a {
+  border: 1px solid red;
+} */

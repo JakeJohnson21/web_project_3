@@ -1,0 +1,28 @@
+.cover__link {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.78px;
+  padding: 13px 20px;
+  background-color: #0278fe;
+  color: white;
+  text-decoration: none;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+.cover__link:hover {
+  background-color: #0063d2;
+  transition: ease-in 0.25s;
+  cursor: pointer;
+}
+.cover__link:hover .cover__overlay:hover {
+  background-color: #2a2c2f;
+  opacity: 0.8;
+  transition: ease-in 0.3s;
+}
+@media screen and (max-width: 700px) {
+  .cover__link {
+    margin-bottom: 45px;
+  }
+}

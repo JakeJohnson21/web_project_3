@@ -1,0 +1,31 @@
+.section__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  position: absolute;
+  font-size: 18px;
+  line-height: 21.78px;
+  padding: 13px 20px;
+  background-color: #0278fe;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+}
+.section__link:hover {
+  background: #0063d2;
+  transition: ease-in 0.25s;
+}
+@media screen and (max-width: 700px) {
+  .section__link {
+    position: relative;
+    padding: 13px 40px;
+    margin: 0 16px;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .section__link {
+    white-space: nowrap;
+  }
+}
