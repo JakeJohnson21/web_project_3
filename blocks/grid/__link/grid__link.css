@@ -2,8 +2,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  position: absolute;
   font-size: 18px;
+  display: inline-block;
   line-height: 21.78px;
   padding: 13px 20px;
   background-color: #0278fe;
