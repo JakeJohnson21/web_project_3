@@ -15,7 +15,6 @@
 }
 .grid__item:last-child {
   height: 48px;
-  margin-top: 13px;
 }
 @media screen and (max-width: 999px) {
   .grid__item:nth-child(5) {
@@ -38,18 +37,22 @@
 }
 @media screen and (max-width: 700px) {
   .grid__item {
-    margin: 0 auto;
-    align-items: center;
+    margin: 0 16px;
   }
-  .grid__item:first-child {
-    height: auto;
-    margin: auto;
+  .grid__item:nth-child(2) {
+    align-self: flex-start;
   }
 
   .grid__item:nth-child(3) {
     margin: 0 auto;
   }
+  .grid__item:nth-child(4) {
+    margin: 0 16px;
+  }
   .grid__item:last-child {
+    margin: 0 auto;
+  }
+  .grid_ .grid__item:last-child {
     align-self: center;
   }
 }

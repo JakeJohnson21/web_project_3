@@ -27,5 +27,6 @@
 @media screen and (max-width: 580px) {
   .grid__link {
     white-space: nowrap;
+    margin: 0 auto;
   }
 }
