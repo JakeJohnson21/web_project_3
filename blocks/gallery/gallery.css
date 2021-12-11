@@ -30,11 +30,12 @@
   .gallery {
     grid-template-columns: 1fr;
     max-width: 360px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .gallery__container {
+  .gallery {
     max-width: auto;
   }
 }

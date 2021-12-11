@@ -28,8 +28,4 @@
     position: relative;
     row-gap: 30px;
   }
-
-  .grid:first-child {
-    margin-top: 49px;
-  }
 }

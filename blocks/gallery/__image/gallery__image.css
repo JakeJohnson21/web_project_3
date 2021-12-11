@@ -1,16 +1,6 @@
-.gallery__image {
-}
-@media screen and (max-width: 1190px) {
-}
-
 @media screen and (max-width: 920px) {
   .gallery__image {
     width: 100%;
     height: auto;
   }
-}
-
-@media screen and (max-width: 700px) {
-}
-@media screen and (max-width: 570px) {
 }
