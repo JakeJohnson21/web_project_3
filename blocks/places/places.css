@@ -1,0 +1,14 @@
+.place {
+  margin: 92px 148px 0;
+}
+@media screen and (max-width: 999px) {
+  .place {
+    margin: 0 24px;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .place {
+    margin: 0;
+  }
+}

@@ -1,5 +1,5 @@
-.grid__link {
-  font-family: "Inter";
+.place__link {
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -10,13 +10,15 @@
   border-radius: 4px;
   color: white;
   text-decoration: none;
+  grid-area: 3/1/4/2;
 }
-.grid__link:hover {
+
+.place__link:hover {
   background: #0063d2;
   transition: ease-in 0.25s;
 }
 @media screen and (max-width: 700px) {
-  .grid__link {
+  .place__link {
     position: relative;
     padding: 13px 40px;
     margin: 0 16px;
@@ -25,7 +27,7 @@
 }
 
 @media screen and (max-width: 580px) {
-  .grid__link {
+  .place__link {
     white-space: nowrap;
     margin: 0 auto;
   }

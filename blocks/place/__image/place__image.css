@@ -1,19 +1,18 @@
-.grid__image {
+.place__image {
   margin-bottom: 48px;
   width: 100%;
+  grid-row: 2 / span 1;
+  grid-column: 1/2;
 }
 @media screen and (max-width: 999px) {
-  .grid__image {
+  .place__image {
     position: relative;
     margin-bottom: 61px;
-    width: 100%;
-    margin-left: 0;
   }
 }
 
 @media screen and (max-width: 700px) {
-  .grid__image {
+  .place__image {
     margin-bottom: 0;
-    width: 100%;
   }
 }

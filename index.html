@@ -2,11 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width. initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
 
     <title>From Homeland to Homeland</title>
     <link rel="stylesheet" href="pages/index.css" />
-    <link rel="stylesheet" href="vendor/Inter-Web/inter.css" />
   </head>
 
   <body class="page">
@@ -16,26 +15,29 @@
         src="images/image.svg"
         alt="Practicum Art Gallery Logo blue layout design"
       />
-      <h1 class="header__title">From Homeland to Homeland</h1>
-      <p class="header__subtitle">
-        An epic journey from Kentucky to Burundi through Wales and Ukraine
-      </p>
-      <img
-        class="header__image"
-        src="images/_background-filter.jpg"
-        alt="gray filtered coastal european village."
-      />
     </header>
     <main class="content">
+      <section class="lead">
+        <h1 class="lead__title">From Homeland to Homeland</h1>
+        <p class="lead__subtitle">
+          An epic journey from Kentucky to Burundi through Wales and Ukraine
+        </p>
+        <img
+          class="lead__image"
+          src="images/_background-filter.jpg"
+          alt="gray filtered coastal european village."
+        />
+      </section>
+
       <section class="origin">
         <h2 class="origin__title">
           Know the places your online pals come from a little better
         </h2>
-        <p class="origin__quote">
+        <blockquote class="origin__quote">
           Every human being is an artist, a freedom being, called to participate
           in transforming and reshaping the conditions, thinking, and structures
           that shape and inform our lives.
-        </p>
+        </blockquote>
         <p class="origin__author">— Joseph Beuys</p>
         <p class="origin__text">
           The town of Practicum has brought together professionals from
@@ -49,69 +51,66 @@
         </p>
       </section>
       <section class="gallery">
-        <div class="gallery__container">
-          <img
-            class="gallery__image"
-            src="images/1-1of8.png"
-            alt="rainy weather, cloud cover on a coastal
+        <img
+          class="gallery__image"
+          src="images/1-1of8.png"
+          alt="rainy weather, cloud cover on a coastal
         city"
-          />
-          <img
-            class="gallery__image"
-            src="images/1-2of8.png"
-            alt="Clouds dispersing coastal city overlooking a neighborhood"
-          />
-          <img
-            class="gallery__image"
-            src="images/1-3of8.png"
-            alt="Sunset over a place of worship"
-          />
-          <img
-            class="gallery__image"
-            src="images/1-4of8.png"
-            alt="Foggy city, views of a river and bridges."
-          />
-          <img
-            class="gallery__image"
-            src="images/1-5of8.png"
-            alt="Fields of green. School in the distance."
-          />
-          <img
-            class="gallery__image"
-            src="images/1-6of8.png"
-            alt="Green vehicle parking only signs in front of a white building"
-          />
-          <img
-            class="gallery__image"
-            src="images/1-7of8.png"
-            alt="brown huts, man pointing at a small sign"
-          />
-          <img
-            class="gallery__image"
-            src="images/1-8of8.png"
-            alt="Little buildings in front of a hilly forest"
-          />
-        </div>
+        />
+        <img
+          class="gallery__image"
+          src="images/1-2of8.png"
+          alt="Clouds dispersing coastal city overlooking a neighborhood"
+        />
+        <img
+          class="gallery__image"
+          src="images/1-3of8.png"
+          alt="Sunset over a place of worship"
+        />
+        <img
+          class="gallery__image"
+          src="images/1-4of8.png"
+          alt="Foggy city, views of a river and bridges."
+        />
+        <img
+          class="gallery__image"
+          src="images/1-5of8.png"
+          alt="Fields of green. School in the distance."
+        />
+        <img
+          class="gallery__image"
+          src="images/1-6of8.png"
+          alt="Green vehicle parking only signs in front of a white building"
+        />
+        <img
+          class="gallery__image"
+          src="images/1-7of8.png"
+          alt="brown huts, man pointing at a small sign"
+        />
+        <img
+          class="gallery__image"
+          src="images/1-8of8.png"
+          alt="Little buildings in front of a hilly forest"
+        />
       </section>
-      <section class="place">
-        <div class="grid">
-          <div class="grid__item">
-            <h2 class="grid__title">Kyiv, Ukraine</h2>
+      <section class="places">
+        <article class="place">
+          <h2 class="place__title">Kyiv, Ukraine</h2>
+
+          <div class="place__item">
+            <p class="place__artist">artist</p>
+            <p class="place__author">Natalia Dolgushina, content producer</p>
           </div>
-          <div class="grid__item">
-            <p class="grid__artist">ARTIST</p>
-            <p class="grid__author">Natalia Dolgushina, content producer</p>
-          </div>
-          <div class="grid__item">
-            <img
-              class="grid__image"
-              src="images/Kyiv.png"
-              alt="Foggy city,
+
+          <img
+            class="place__image"
+            src="/images/Kyiv.png"
+            alt="Foggy city,
                 views of a river and bridges"
-            />
-          </div>
-          <div class="grid__item">
-            <p class="grid__paragraph">
+          />
+
+          <div class="place__text">
+            <p class="place__paragraph">
               Kyiv (or Kiev), Ukraine's capital, is a large city located on the
               shores of the Dnipro river. Of course, no one in their right mind
               would swim in the river, unless they grew up here, in which case
@@ -119,7 +118,7 @@
               the winters are drafty, but the fall and the spring are are
               absolutely amazing.
             </p>
-            <p class="grid__paragraph">
+            <p class="place__paragraph">
               The city itself is a mix of pre-revolution, post-war and soviet
               architecture, all of it sprinkled with modified balconies. If
               you're on the right bank of the Dnipro, the landscape is difficult
@@ -128,38 +127,34 @@
               even by people who live on the far outskirts of the right one.
             </p>
           </div>
-          <div class="grid__item">
-            <a class="grid__link" href="#">Buy this artwork as NFT</a>
-          </div>
-        </div>
 
-        <div class="grid">
-          <div class="grid__item">
-            <h2 class="grid__title">Cricieth, Wales</h2>
+          <a class="place__link" href="#">Buy this artwork as NFT</a>
+        </article>
+
+        <article class="place">
+          <h2 class="place__title">Cricieth, Wales</h2>
+
+          <div class="place__owner">
+            <p class="place__artist">artist</p>
+            <p class="place__author">Steffan Warren, lead editor</p>
+            <p class="place__author">Kseniya Glagoleva, project manager</p>
           </div>
-          <div class="grid__item">
-            <div class="grid__align">
-              <p class="grid__artist">ARTIST</p>
-              <p class="grid__author">Steffan Warren, lead editor</p>
-              <p class="grid__author">Kseniya Glagoleva, project manager</p>
-            </div>
-          </div>
-          <div class="grid__item">
-            <img
-              class="grid__image"
-              src="images/Cricieth.png"
-              alt="Clouds dispersing coastal city overlooking a neighborhood"
-            />
-          </div>
-          <div class="grid__item">
-            <p class="grid__paragraph">
+
+          <img
+            class="place__image"
+            src="images/Cricieth.png"
+            alt="Clouds dispersing coastal city overlooking a neighborhood"
+          />
+
+          <div class="place__text">
+            <p class="place__paragraph">
               The medieval ruin of Cricieth Castle overlooks the town below from
               a rock that juts out into the sea. It is thought to have been
               built by Llewelyn the Great in the 13th century. Some 900 years
               later, the self-styled Pearl of Wales on the Shores of Snowdonia
               has become a popular tourist destination during the summer months.
             </p>
-            <p class="grid__paragraph">
+            <p class="place__paragraph">
               A short walk down the road from the castle, you can enjoy the
               world's best ice cream at Cadwalader's, whose secret ingredient is
               rumored to be locally sourced seaweed. Another claim to fame is
@@ -169,31 +164,27 @@
               the office of Prime Minister of the UK.
             </p>
           </div>
-          <div class="grid__item">
-            <a class="grid__link" href="#">Buy this artwork as NFT</a>
-          </div>
-        </div>
 
-        <div class="grid">
-          <div class="grid__item">
-            <h2 class="grid__title">Berea, USA</h2>
+          <a class="place__link" href="#">Buy this artwork as NFT</a>
+        </article>
+
+        <article class="place">
+          <h2 class="place__title">Berea, USA</h2>
+
+          <div class="place__owner">
+            <p class="place__artist">artist</p>
+            <p class="place__author">Travis Turner, author and editor</p>
           </div>
-          <div class="grid__item">
-            <div class="grid__align">
-              <p class="grid__artist">ARTIST</p>
-              <p class="grid__author">Travis Turner, author and editor</p>
-            </div>
-          </div>
-          <div class="grid__item">
-            <img
-              class="grid__image"
-              src="images/Barea.png"
-              alt="Midwestern town
+
+          <img
+            class="place__image"
+            src="images/Barea.png"
+            alt="Midwestern town
                     street, speed limit 35mph."
-            />
-          </div>
-          <div class="grid__item">
-            <p class="grid__paragraph">
+          />
+
+          <div class="place__text">
+            <p class="place__paragraph">
               Berea is a small town located in the central part of Kentucky. The
               town is surrounded by beautiful forests and countryside. It's
               known as the arts and crafts capital of the state, and visitors
@@ -202,7 +193,7 @@
               The town holds a yearly festival celebrating "spoonbread", a local
               dish made with cornbread and served with a wooden spoon.
             </p>
-            <p class="grid__paragraph">
+            <p class="place__paragraph">
               However, it's probably known best for the local college. Berea
               College was founded in 1855 and was the first college in the south
               to be racially integrated, as well as the first to be
@@ -210,37 +201,33 @@
               student receives a full-tuition scholarship.
             </p>
           </div>
-          <div class="grid__item">
-            <a class="grid__link" href="#">Buy this artwork as NFT</a>
-          </div>
-        </div>
 
-        <div class="grid">
-          <div class="grid__item">
-            <h2 class="grid__title">Muramvya, Burundi</h2>
+          <a class="place__link" href="#">Buy this artwork as NFT</a>
+        </article>
+
+        <article class="place">
+          <h2 class="place__title">Muramvya, Burundi</h2>
+
+          <div class="place__owner">
+            <p class="place__artist">artist</p>
+            <p class="place__author">Grevisse Kenguruka, tech editor</p>
           </div>
-          <div class="grid__item">
-            <div class="grid-align">
-              <p class="grid__artist">ARTIST</p>
-              <p class="grid__author">Grevisse Kenguruka, tech editor</p>
-            </div>
-          </div>
-          <div class="grid__item">
-            <img
-              class="grid__image"
-              src="images/Muramvya.png"
-              alt="Wood carvings of 3 men with there arms out, radio tower in the background."
-            />
-          </div>
-          <div class="grid__item">
-            <p class="grid__paragraph">
+
+          <img
+            class="place__image"
+            src="images/Muramvya.png"
+            alt="Wood carvings of 3 men with there arms out, radio tower in the background."
+          />
+
+          <div class="place__text">
+            <p class="place__paragraph">
               Muramvya is one of the 18 provinces of Burundi. In the kingdom
               era, Muramvya was the royal capital and in 2007, because of its
               cultural and natural landscape, it was added to the UNESCO World
               Heritage Tentative List. It is located in the center of Burundi,
               between the two capitals (economic and political).
             </p>
-            <p class="grid__paragraph">
+            <p class="place__paragraph">
               The weather is rather chilly at night, but during the day, you
               would think you're in heaven. At 2,665 meters (8,743 ft) above sea
               level, Mount Teza is one of the coldest places in the province.
@@ -248,7 +235,7 @@
               tea and coffee in the country, which make up the bulk of Burundi's
               exports.
             </p>
-            <p class="grid__paragraph">
+            <p class="place__paragraph">
               The Kibira National Park, one of the largest wildlife reserves for
               apes, overlaps four provinces, including Muramvya. This National
               Park lies at the apex of the beautiful mountains of the Congo-Nile
@@ -257,28 +244,26 @@
               rivers and streams which provide water around the country.
             </p>
           </div>
-          <div class="grid__item">
-            <a class="grid__link" href="#">Buy this artwork as NFT</a>
-          </div>
-        </div>
 
-        <div class="grid">
-          <div class="grid__item">
-            <h2 class="grid__title">Waukesha WI, USA</h2>
+          <a class="place__link" href="#">Buy this artwork as NFT</a>
+        </article>
+
+        <article class="place">
+          <h2 class="place__title">Waukesha WI, USA</h2>
+
+          <div class="place__owner">
+            <p class="place__artist">artist</p>
+            <p class="place__author">Jake Johnson, student at Practicum</p>
           </div>
-          <div class="grid__item">
-            <p class="grid__artist">ARTIST</p>
-            <p class="grid__author">Jake Johnson, student at Practicum</p>
-          </div>
-          <div class="grid__item">
-            <img
-              class="grid__image"
-              src="images/Waukesha.jpg"
-              alt="Main street in downtown waukesha"
-            />
-          </div>
-          <div class="grid__item">
-            <p class="grid__paragraph">
+
+          <img
+            class="place__image"
+            src="images/Waukesha.jpg"
+            alt="Main street in downtown waukesha"
+          />
+
+          <div class="place__text">
+            <p class="place__paragraph">
               In the late 19th century, Waukesha became famous for its healing
               waters. People came from far and wide to heal and relax in the
               resort town. After the era of healing waters ended, Waukesha
@@ -286,25 +271,25 @@
               iron, and steel. (I just looked this up and learned something
               new.)
             </p>
-            <p class="grid__paragraph">
+            <p class="place__paragraph">
               I've lived all over the country and Waukesha is the place I keep
               returning to. The weather is hot in the summer and freezing in the
               winters. Every season is exactly as you would picture it!
               Absolutely beautiful!
             </p>
           </div>
-          <div class="grid__item">
-            <a class="grid__link" href="#">Buy this artwork as NFT</a>
-          </div>
-        </div>
+
+          <a class="place__link" href="#">Buy this artwork as NFT</a>
+        </article>
       </section>
       <section class="cover">
         <div class="cover__content">
           <h2 class="cover__title">Visit us</h2>
 
-          <p class="cover__text">Year-round</p>
-          <p class="cover__text">Practicum Art Gallery</p>
-          <p class="cover__text">404 Tim Berners-Lee Ave</p>
+          <p class="cover__text">
+            Year-round Practicum Art Gallery 404 Tim Berners-Lee Ave
+          </p>
+
           <a class="cover__link" href="#">Buy tickets</a>
         </div>
         <div class="cover__content-overlay"></div>

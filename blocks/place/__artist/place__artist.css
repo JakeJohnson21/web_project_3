@@ -1,20 +1,21 @@
-.grid__artist {
-  font-family: "Inter";
+.place__artist {
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 14.52px;
   letter-spacing: 1.6px;
   margin-bottom: 8px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 999px) {
-  .grid__artist {
+  .place__artist {
     margin-top: 0;
   }
 }
 @media screen and (max-width: 700px) {
-  .grid__artist {
+  .place__artist {
     margin: 0 16px 8px;
   }
 }

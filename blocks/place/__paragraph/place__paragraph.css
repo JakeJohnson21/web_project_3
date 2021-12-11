@@ -1,28 +1,26 @@
-.grid__paragraph {
-  font-family: "Inter";
+.place__paragraph {
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 29.34px;
   margin: 0 0 21px 0;
-  max-width: 484px;
-
+  grid-area: 2/2/4/3;
   padding: 0;
 }
-.grid__paragraph:last-of-type {
+.place__paragraph:last-of-type {
   margin-bottom: 0;
 }
 
 @media screen and (max-width: 999px) {
-  .grid__paragraph {
+  .place__paragraph {
     font-size: 16px;
     line-height: 26.08px;
   }
 }
 
 @media screen and (max-width: 700px) {
-  .grid__paragraph {
+  .place__paragraph {
     margin: 0 16px 25px;
-    max-width: 100%;
   }
 }

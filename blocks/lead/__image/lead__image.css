@@ -1,10 +1,10 @@
-.header__image {
+.lead__image {
   display: block;
   margin: 0 auto;
   max-width: 984px;
 }
 @media screen and (max-width: 999px) {
-  .header__image {
+  .lead__image {
     width: 100%;
     height: auto;
   }
