@@ -27,10 +27,3 @@
     white-space: nowrap;
   }
 }
-
-@media screen and (max-width: 580px) {
-  .place__link {
-    white-space: nowrap;
-    margin: 0 auto;
-  }
-}

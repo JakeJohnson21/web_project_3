@@ -9,7 +9,7 @@
   z-index: 1;
 }
 
-.cover__content-overlay:hover {
+.cover:hover .cover__content-overlay {
   transition: linear 0.25s;
   opacity: 0.8;
 }
