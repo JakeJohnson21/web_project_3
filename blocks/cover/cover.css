@@ -3,14 +3,16 @@
   background-image: url(../../images/background-original.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   margin: 0 auto;
   max-width: 1184px;
   min-height: 740px;
   display: flex;
   flex-direction: column;
   z-index: 1;
-  margin-top: 92px;
+  margin-top: 20px;
 }
+
 @media screen and (max-width: 999px) {
   .cover {
     min-height: 746px;
@@ -23,11 +25,11 @@
 }
 @media screen and (max-width: 550px) {
   .cover {
-    min-height: 400px;
+    min-height: 350px;
   }
 }
 @media screen and (max-width: 400px) {
   .cover {
-    min-height: 320px;
+    min-height: 254px;
   }
 }

@@ -12,5 +12,11 @@
   .cover__text {
     font-size: 14px;
     line-height: 16px;
+    margin: 32px auto;
+  }
+}
+@media screen and (max-width: 340px) {
+  .cover__text {
+    margin: 16px auto;
   }
 }

@@ -1,3 +1,10 @@
 .place__owner {
   align-self: end;
+  grid-area: owner;
+}
+
+@media screen and (max-width: 700px) {
+  .place__owner {
+    align-self: start;
+  }
 }

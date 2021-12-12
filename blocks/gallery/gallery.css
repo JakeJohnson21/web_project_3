@@ -1,6 +1,6 @@
 .gallery {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   row-gap: 16px;
   column-gap: 16px;
   max-width: 1184px;
@@ -17,13 +17,18 @@
 @media screen and (max-width: 920px) {
   .gallery {
     grid-template-columns: 1fr 1fr;
-    max-width: 700px;
-    margin: 0 0 88px;
+    max-width: 720px;
+    margin: 0 auto 88px;
+  }
+}
+@media screen and(max-width: 800px) {
+  .gallery {
+    margin: 0 16px;
   }
 }
 @media screen and (max-width: 700px) {
   .gallery {
-    margin: 0 16px 62px;
+    margin: 0 16px 12px;
   }
 }
 @media screen and (max-width: 550px) {
@@ -33,9 +38,8 @@
     margin: 0 auto;
   }
 }
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 390px) {
   .gallery {
-    max-width: auto;
+    margin: 0 16px;
   }
 }

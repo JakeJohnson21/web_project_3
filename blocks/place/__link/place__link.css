@@ -10,7 +10,9 @@
   border-radius: 4px;
   color: white;
   text-decoration: none;
-  grid-area: 3/1/4/2;
+  grid-row: 3 / span 1;
+  grid-area: link;
+  max-width: 208px;
 }
 
 .place__link:hover {
@@ -21,7 +23,7 @@
   .place__link {
     position: relative;
     padding: 13px 40px;
-    margin: 0 16px;
+    margin: 0 auto;
     white-space: nowrap;
   }
 }

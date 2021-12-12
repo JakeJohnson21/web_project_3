@@ -7,7 +7,7 @@
   background-color: #0278fe;
   color: white;
   text-decoration: none;
-  margin: 32px auto 0;
+  margin: 0 auto 243px;
   position: relative;
   z-index: 2;
   border-radius: 4px;
@@ -17,10 +17,21 @@
   transition: ease-in 0.25s;
   cursor: pointer;
 }
+.cover__link:hover + .cover__content-overlay {
+  background: #2a2c2f;
+  transition: linear 0.25s;
+  opacity: 0.8;
+}
 
 @media screen and (max-width: 700px) {
   .cover__link {
     margin-bottom: 45px;
-    margin-top: 16px;
+  }
+}
+
+}
+@media screen and (max-width: 340px) {
+  .cover__link {
+    margin-bottom: 46px;
   }
 }
