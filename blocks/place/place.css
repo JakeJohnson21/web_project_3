@@ -14,8 +14,9 @@
     "empty texts";
 }
 .place:last-child {
-  margin-bottom: 24px;
+  margin-bottom: 44px;
 }
+
 @media screen and (max-width: 1060px) {
   .place:last-child {
     margin-bottom: 46px;
