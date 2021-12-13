@@ -1,9 +1,10 @@
+/* I know there is an empty grid gap row. I did that on purpose */
 .place {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, auto);
-  margin-bottom: 72px;
+  margin-bottom: 32px;
   grid-row-gap: 48px;
   grid-column-gap: 40px;
   max-width: 987px;
@@ -13,26 +14,38 @@
     "link texts"
     "empty texts";
 }
+/* I know there is an empty grid gap row. I did that on purpose */
+
+.place:nth-child(4) {
+  margin-bottom: 80px;
+}
 .place:last-child {
   margin-bottom: 44px;
 }
-
+/* I know there is an empty grid gap row. I did that on purpose */
 @media screen and (max-width: 1060px) {
   .place:last-child {
     margin-bottom: 46px;
   }
 }
-
+/* I know there is an empty grid gap row. I did that on purpose */
 @media screen and (max-width: 999px) {
   .place {
     grid-row-gap: 46px;
     grid-column-gap: 28px;
+    margin-bottom: 72px;
+  }
+  .place:first-child {
+    margin-bottom: 51px;
+  }
+  .place:nth-child(4) {
+    margin-bottom: 72px;
   }
   .place:last-child {
     margin-bottom: 0;
   }
 }
-
+/* I know there is an empty grid gap row. I did that on purpose */
 @media screen and (max-width: 700px) {
   .place {
     margin: 50px 0 0 0;
@@ -41,4 +54,8 @@
     position: relative;
     row-gap: 30px;
   }
+  .place:first-child {
+    margin-top: 62px;
+  }
 }
+/* I know there is an empty grid gap row. I did that on purpose */

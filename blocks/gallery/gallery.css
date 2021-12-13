@@ -21,7 +21,7 @@
     margin: 0 auto 88px;
   }
 }
-@media screen and(max-width: 800px) {
+@media screen and (max-width: 800px) {
   .gallery {
     margin: 0 16px;
   }
